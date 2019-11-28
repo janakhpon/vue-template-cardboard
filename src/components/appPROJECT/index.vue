@@ -16,7 +16,7 @@ import Sectionone from './sectionone.vue'
 
 
 export default {
-  name: 'Services',
+  name: 'PROJECT',
   components: {
     Header,
     Footer,
