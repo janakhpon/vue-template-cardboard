@@ -2,7 +2,7 @@
   <header role="banner">
     <nav class="navbar navbar-expand-lg bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">CardBoard</a>
+        <router-link class="navbar-brand" to="/">Cardboard</router-link>
 
         <button
           class="navbar-toggler"
@@ -19,21 +19,19 @@
         <div class="collapse navbar-collapse" id="navbarsExample05">
           <ul class="navbar-nav pl-md-5 ml-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
+               <router-link  class="nav-link active" to='/'>Home</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <router-link  class="nav-link active" to='/About'>About</router-link>
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="services.html"
+              <router-link class="nav-link dropdown-toggle"
                 id="dropdown04"
                 data-toggle="dropdown"
                 aria-haspopup="true"
-                aria-expanded="false"
-              >Services</a>
+                aria-expanded="false" to='/Services'>Services</router-link>
               <div class="dropdown-menu" aria-labelledby="dropdown04">
+                <router-link class="dropdown-item" to='/Project'>Project</router-link>
                 <a class="dropdown-item" href="#">Branding</a>
                 <a class="dropdown-item" href="#">Web Design</a>
                 <a class="dropdown-item" href="#">App Design</a>
@@ -41,10 +39,10 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Projects</a>
+              <router-link  class="nav-link active" to='/Projects'>Projects</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <router-link  class="nav-link active" to='/Contact'>Contact</router-link>
             </li>
           </ul>
 
